@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Amar bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-5xl font-bold text-center mt-5">
+      Function <span class="text-red-500">Amader-Free-Bank</span>
+    </h1>
+    <main>
+      <section class="w-9/12 mx-auto mt-8">
+        <div class="grid grid-cols-3 gap-3">
+          <div class="bg-red-400 rounded-lg h-28">
+            <h1 class="text-3xl ml-4">Deposit</h1>
+            <h1 class="text-3xl ml-5">$ <span>00</span></h1>
+          </div>
+          <div class="bg-red-400 rounded-lg h-28">
+            <h1 class="text-3xl ml-4">Withdraw</h1>
+            <h1 class="text-3xl ml-5">$ <span>00</span></h1>
+          </div>
+          <div class="bg-red-400 rounded-lg h-28">
+            <h1 class="text-3xl ml-4">Balance</h1>
+            <h1 class="text-3xl ml-5">$ <span>1200</span></h1>
+          </div>
+        </div>
+        <div class="mt-10 grid grid-cols-2 gap-4">
+          <div class="bg-red-400 rounded-lg h-48 space-y-6">
+            <h1 class="text-3xl ml-4">Your Deposit</h1>
+            <input
+              class="block w-9/12 h-10 ml-7 rounded-lg p-3"
+              placeholder="Deposit"
+              type="text"
+            />
+            <button
+              id="fist-button"
+              class="ml-7 rounded-lg bg-blue-700 px-7 py-3"
+            >
+              Deposit
+            </button>
+          </div>
+          <div class="bg-red-400 rounded-lg h-48 space-y-6">
+            <h1 class="text-3xl ml-4">Your Withdraw</h1>
+            <input
+              class="block w-9/12 h-10 ml-7 rounded-lg p-3"
+              placeholder="Withdraw"
+              type="text"
+            />
+            <button id="Withdraw" class="ml-7 rounded-lg bg-blue-700 px-7 py-3">
+              Withdraw
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="/index.js"></script>
+  </body>
+</html>
